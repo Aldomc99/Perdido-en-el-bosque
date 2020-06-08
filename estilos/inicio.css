@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#video1 {
+	position: fixed;
+	z-index: -1;
+}
+@media (min-aspect-ratio: 16/9){
+	#video1 { 
+	width: 100%;
+	height: auto;
+	}
+}
+
+#el1{
+	position: fixed;
+	top: 150px;
+	right:100px;
+	transition: background-color 0.5s ease;
+	background-color: #FFFE6E;
+	
+	font-family: 'Kalam', cursive;
+font-size: 30px;
+	 line-height: 1.2;
+
+  width: 640px;
+  height: 200px;
+	z-index: 1;
+	
+	
+}
+
+#el1:hover{
+	background-color: palevioletred;
+}
+	
+
